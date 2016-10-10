@@ -18,27 +18,21 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 100px;
 }
 
 header {
     height: 100px;
     width: 100%;
     background-color: #fff;
-    position: fixed;
 }
 
 .content {
     background-color: green;
     margin-bottom: auto;
-    overflow: scroll;
-    display: flex;
 }
 
 footer {
     width: 100%;
     min-height: 100px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
 }
